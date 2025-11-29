@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Budget du Ménage - Exercice Interactif
 
-# Run and deploy your AI Studio app
+Application pédagogique interactive pour apprendre à gérer un budget familial, réalisée pour les élèves de l'Institut Saint-Luc de Mons par Mr Depret.
 
-This contains everything you need to run your app locally.
+## Description
 
-View your app in AI Studio: https://ai.studio/apps/drive/1_-a3QJriNu8vTp8gt0RbcMTixN6cxlRR
+Cette application permet aux élèves de :
+- Visualiser un budget prévisionnel d'un ménage
+- Comprendre l'impact d'un imprévu (accident) sur les finances
+- Analyser les différences entre budget prévu et budget réel
+- Tester leurs connaissances avec un quiz interactif
 
-## Run Locally
+## Installation et Démarrage
 
-**Prerequisites:**  Node.js
+**Prérequis:** Node.js (version 16 ou supérieure)
 
+1. **Installer les dépendances:**
+   ```bash
+   npm install
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. **Démarrer l'application:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Ouvrir l'application:**
+   L'application sera accessible sur `http://localhost:3000/`
+
+## Technologies Utilisées
+
+- React 19.2.0
+- TypeScript
+- Vite 6.2.0
+- Tailwind CSS
+- Lucide React (icônes)
+
+## Solution au problème d'écran blanc
+
+Si vous rencontrez un écran blanc au démarrage :
+1. Assurez-vous d'avoir installé les dépendances avec `npm install`
+2. Vérifiez que le serveur de développement est démarré avec `npm run dev`
+3. L'application devrait être accessible sur `http://localhost:3000/`
